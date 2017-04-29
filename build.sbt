@@ -11,10 +11,10 @@ libraryDependencies += filters
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "2.0.0" % Test
 libraryDependencies ++= Seq(
   "org.postgresql"       %  "postgresql"                    % "9.4.+",
-  "org.scalikejdbc" %% "scalikejdbc"       % "2.5.1",
-  "org.scalikejdbc" %% "scalikejdbc-config"           % "2.5.1",
-  "org.scalikejdbc" %% "scalikejdbc-play-initializer" % "2.5.1",
-   //"com.h2database"  %  "h2"                % "1.4.193",
+  "org.scalikejdbc"     %% "scalikejdbc-async"             % "0.7.+",
+  "org.scalikejdbc"     %% "scalikejdbc-async-play-plugin" % "0.7.+",
+  "com.github.mauricio" %% "postgresql-async"              % "0.2.+",
+  //"com.h2database"  %  "h2"                % "1.4.193",
   "ch.qos.logback"  %  "logback-classic"   % "1.2.1"
 )
 
