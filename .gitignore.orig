@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+# SBT
+/dist
+/project/boot
+/project/target
+/project/plugins/target
+/target
+/.target
+
+=======
+*.class
+*.log
+>>>>>>> 07a1606b326faa544fc49c2b2aa48cb8113ef89a
